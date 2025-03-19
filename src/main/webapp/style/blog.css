@@ -1,0 +1,19 @@
+.blog {
+    padding: 1rem;
+    margin: 2rem 10%; /* Ensures proper wrapping of text*/
+}
+
+.blog h1, .blog h2 {
+    margin-top: 1.5rem; /* Some space between heading and navbar */ 
+    margin-bottom: 0.5rem; /* Some space between heading and paragraph */ 
+}
+
+.blog p, .blog ul {
+    text-align: left;
+    line-height: 1.6; /* Most popular for readability */
+    margin: 0.5rem 0;
+}
+
+.blog ul {
+    padding-left: 0;
+}

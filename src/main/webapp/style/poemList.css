@@ -1,0 +1,62 @@
+.poemList h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.poemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; 
+    padding: 2rem 0; 
+}
+
+.poemList .poem {
+    border: 0.1rem solid #21201E; 
+    background-color: #fff; 
+    color: #21201E; 
+    width: 50%;
+    padding: 1rem; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+}
+
+.poemList .poemHeader {
+    margin-bottom: 1rem; 
+}
+
+.poemList .poemImg {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 1rem;
+}
+
+.poemList .poemText {
+    font-size: 1rem; 
+    line-height: 1.5; 
+}
+
+.poemList .poemGenre, .poemList .poemDate, .poemList .poemRating {
+    font-size: 0.9rem; 
+    margin-right: 0.5rem;
+}
+
+.poemList .hidden {
+    display: none;
+}
+
+.poemList .changeRatingBtn {
+    margin-left:1rem;
+}
+
+.poemList .toggleTextBtn {
+    margin-right:1rem;
+}
+
+@media (max-width: 768px) {
+    .poemList .poem {
+        width: 100%; /* Full width for mobile to stack cards */
+    }
+}

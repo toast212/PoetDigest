@@ -1,0 +1,56 @@
+.clickSort {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.clickSort table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.clickSort th {
+  padding: 0.5rem;
+  border: 1px solid #21201E;
+  color: #21201E;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.clickSort th img {
+  width: 0.75rem;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
+.clickSort td {
+  padding: 0.5rem;
+  background-color: #F0F0F0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.clickSort .shadowImage img {
+  width: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.25rem #AAAAAA;
+}
+
+.clickSort .wideImage img {
+  width: 6rem;
+}
+
+.clickSort .textAlignRight {
+  text-align: right;
+}
+
+.clickSort .textAlignCenter {
+  text-align: center;
+}
+
+.clickSort .nowrap {
+  white-space: nowrap;
+}

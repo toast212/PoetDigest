@@ -1,0 +1,18 @@
+body .dropDown, .dropDown a {
+    color: #fff;
+    background-color: #21201E;
+}
+.dropDown .dropContent a {
+    color: #fff;
+    display: block;
+}
+
+.dropDown .dropContent {
+    background-color: #333; 
+    color: #fff; 
+}
+
+.dropDown .dropContent a:hover {
+    background-color: #3d3a34;
+    color: #fff;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: #fff;
+    color: #21201E;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+#titleNav {
+    background-color: #21201E;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.9rem;
+}
+
+#title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#titleNav #nav {
+    display: flex;
+    gap: 0.9rem;
+}
+
+#titleNav #nav a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#content {
+    margin: 5rem 0 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#content a {
+    color: #666604;
+    text-decoration: underline;
+}
+
+#content a[href="hello"] {
+    color: #5a3f04;
+}
+
+#content  img:not(.clickSort img) {
+    width: 28%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#poems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#poems img:not(.clickSort img)  {
+    width: 20%;
+
+}
+
+@media (max-width: 600px) {
+    #content img:not(.clickSort img)  {
+        width: 100%;
+    }
+
+    #poems img {
+        width: 100%;
+    }
+}
+
+#footer {
+    background-color: #21201E;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.13rem;
+}
+
+.clickSort {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+  }

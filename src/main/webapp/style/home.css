@@ -1,0 +1,14 @@
+.home {
+    padding: 1rem;
+    margin: 3rem 10%;
+}
+
+.home h1, .home h2 {
+    margin-bottom: 0.5rem;
+}
+
+.home p {
+    line-height: 1.6; /*Most popular for readability*/
+    margin-bottom: 0.75rem;
+    text-align: left;
+}

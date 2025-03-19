@@ -1,0 +1,29 @@
+.insertArea {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.insertArea td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.insertArea input,
+.insertArea select {
+    width: 100%;
+    padding: 0.1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.insertArea .error {
+    color: #ff0000;
+    font-size: 0.9rem;
+}
+
+.insertArea button {
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    background-color: #21201E;
+    color: #fff;
+}

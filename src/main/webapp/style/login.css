@@ -1,0 +1,25 @@
+.login {
+    margin: 2rem auto;
+    max-width: 75%;
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+}
+
+.login .form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login .msg {
+    margin-top: 1rem;
+}
+
+@media (min-width: 736px){
+    .login .form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+}
